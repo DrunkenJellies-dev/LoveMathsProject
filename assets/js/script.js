@@ -12,9 +12,7 @@ document.addEventListener("DOMContentLoaded", function(){
         })
     }
     runGame(`addition`);
-
 })
-
 
 function runGame(gameType){
     let num1 = Math.floor((Math.random() * 25) + 1);
